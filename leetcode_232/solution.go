@@ -1,4 +1,4 @@
-package stackToQueue
+package leetcode_232
 
 import "fmt"
 
@@ -27,7 +27,7 @@ func (this *MyQueue) Pop() int {
 
 func (this *MyQueue) Peek() int {
 	this.Move()
-	if len(this.out)==0{
+	if len(this.out) == 0 {
 		return 0
 	}
 	return this.out[len(this.out)-1]

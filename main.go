@@ -1,10 +1,10 @@
 package main
 
 import (
-	"playground/stackToQueue"
+	"playground/leetcode_232"
 )
 
 func main() {
-	// validateSubsequence.TestCode()
-	stackToQueue.TestCode()
+	// leetcode_392.TestCode()
+	leetcode_232.TestCode()
 }
