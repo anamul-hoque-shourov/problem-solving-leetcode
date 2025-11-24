@@ -1,9 +1,10 @@
 package main
 
 import (
-	"playground/validateSubsequence"
+	"playground/stackToQueue"
 )
 
 func main() {
-	validateSubsequence.TestCode()
+	// validateSubsequence.TestCode()
+	stackToQueue.TestCode()
 }
