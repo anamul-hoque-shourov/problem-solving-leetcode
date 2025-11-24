@@ -1,4 +1,4 @@
-package validateSubsequence
+package leetcode_392
 
 import "fmt"
 
