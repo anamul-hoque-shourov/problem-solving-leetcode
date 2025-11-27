@@ -1,3 +1,3 @@
-module playground
+module leetcode
 
 go 1.25.4
