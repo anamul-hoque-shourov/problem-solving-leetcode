@@ -1,11 +1,12 @@
 package main
 
-import "leetcode/leetcode_1929"
+import "leetcode/leetcode_155"
 
 func main() {
 	// leetcode_20.TestCode()
 	// leetcode_26.TestCode()
 	// leetcode_27.TestCode()
+	leetcode_155.TestCode()
 	// leetcode_232.TestCode()
 	// leetcode_283.TestCode()
 	// leetcode_392.TestCode()
@@ -13,6 +14,6 @@ func main() {
 	// leetcode_682.TestCode()
 	// leetcode_977.TestCode()
 	// leetcode_1470.TestCode()
-	leetcode_1929.TestCode()
+	// leetcode_1929.TestCode()
 	// practice.TestCode2()
 }
