@@ -1,9 +1,7 @@
 package main
 
-import "leetcode/leetcode_15"
-
 func main() {
-	leetcode_15.TestCode()
+	// leetcode_15.TestCode()
 	// leetcode_20.TestCode()
 	// leetcode_26.TestCode()
 	// leetcode_27.TestCode()
