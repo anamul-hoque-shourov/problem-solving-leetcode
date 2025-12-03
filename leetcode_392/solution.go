@@ -2,9 +2,9 @@ package leetcode_392
 
 import "fmt"
 
-func IsSubsequence(s string, t string) bool {
+func isSubsequence(s string, t string) bool {
 	j := 0
-	if len(s) < 1 {
+	if len(s) < 2 {
 		return true
 	}
 	for i := 0; i < len(t); i++ {
@@ -22,10 +22,10 @@ func TestCode() {
 	mainString := "constant"
 
 	subString1 := "cntn"
-	result1 := IsSubsequence(subString1, mainString) //true
+	result1 := isSubsequence(subString1, mainString) //true
 
 	subString2 := "cntna"
-	result2 := IsSubsequence(subString2, mainString) //false
+	result2 := isSubsequence(subString2, mainString) //false
 
 	fmt.Println(result1, result2) // true, false
 }
